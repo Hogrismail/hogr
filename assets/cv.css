@@ -1,0 +1,138 @@
+@font-face {
+	font-family: futuraMedium;
+	src: url(../assets/fonts/futura_mediumbt.ttf);
+}
+
+@font-face {
+	font-family: futuraLight;
+	src: url(../assets/fonts/futura_lightbt.ttf);
+}
+
+body {
+	font-family: futuraLight;
+	height: 297mm;
+	width: 210mm;
+	margin: 0;
+	padding: 0;
+}
+
+.black {
+	background: #000000;
+}
+
+.purple {
+	background: #7F00FF;
+	background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+	background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+
+.blue {
+	background: #a8c0ff;
+	background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+	background: linear-gradient(to right, #3f2b96, #a8c0ff);
+}
+
+.green {
+	background: #11998e;
+	background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+	background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.orange {
+	background: #E44D26;
+	background: -webkit-linear-gradient(to right, #F16529, #E44D26);
+	background: linear-gradient(to right, #F16529, #E44D26);
+}
+
+.lightRed {
+	background: rgb(255, 70, 70);
+	background: linear-gradient(129deg, rgba(255, 70, 70, 1) 0%, rgba(255, 50, 50, 1) 100%);
+}
+
+.pink {
+	background: #bc4e9c;
+	background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+	background: linear-gradient(to right, #f80759, #bc4e9c);
+
+}
+
+.yellow {
+	background: #F7971E;
+	background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+	background: linear-gradient(to right, #FFD200, #F7971E);
+}
+
+.red {
+	background: #F00000;
+	background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+	background: linear-gradient(to right, #DC281E, #F00000);
+
+}
+
+.text_color {
+	font-family: futuraMedium;
+	color: #7F00FF;
+	color: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+	color: linear-gradient(to right, #E100FF, #7F00FF);
+
+}
+
+.line {
+	border-left: 1px solid #7F00FF;
+	height: 220mm;
+	position: absolute;
+	left: 100mm;
+	top: 230px;
+}
+
+.list_left {
+	float: left;
+	width: 350px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 160px;
+	width: auto;
+	font-family: futuraMedium;
+}
+
+.title {
+	padding-top: 3%;
+	font-size: 65px;
+}
+
+.desc {
+	font-family: futuraLight;
+	font-size: 24px;
+}
+
+.info_header {
+	font-family: futuraMedium;
+	margin: 75px 0 0 40px;
+}
+
+.list_right {
+	float: right;
+	width: 350px;
+}
+
+.info_title {
+	font-size: 24px;
+}
+
+.info_list {
+	text-align: left;
+	margin: 20px 0 50px -15px;
+}
+
+li {
+	padding-bottom: 10px;
+}
